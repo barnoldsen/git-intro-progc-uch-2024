@@ -2,10 +2,10 @@
 
 ## Ingredienser
 - Kød
-- salat
 - aiolie 
 - Agurk 
-- Tomat 
+- Salat
+- Tomat
 
 ## Fremgangsmåde
 - Form til bøf
