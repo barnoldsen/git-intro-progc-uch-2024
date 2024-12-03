@@ -10,6 +10,7 @@ void setup() {
   spinner.add("Alfred");
   spinner.add("Nikolaj");
   spinner.add("Arnold");
+  spinner.add("Mulham");
 }
 
 void draw() {
