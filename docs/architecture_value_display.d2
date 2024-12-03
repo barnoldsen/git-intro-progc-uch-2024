@@ -1,0 +1,22 @@
+# generate png using:
+# 
+# d2 --layout=elk --sketch .\architecture_value_display.d2 .\architecture_value_display.png
+
+direction: right
+user: User {
+  shape: person
+}
+
+Computer: {
+  p: Processing Sketch
+}
+
+Arduino: {
+  ls: Sketch: \n Arduino Light Sensor
+}
+
+user -> Computer.p: mouse / keyboard
+user <- Computer.p: sound / display
+
+# Computer.p -- Arduino.ls: Serial data
+Arduino.ls -- Computer.p: Serial data

@@ -1,0 +1,37 @@
+Message: {
+  shape: class
+  - message: String
+  - offset: int
+  - position: PVector
+  - scale: float
+  - multiplier: float
+  Message(msg string, offset int)
+  update(angleRad float, messageAngleRad float)
+  render()
+}
+
+Paint: {
+  shape: class
+  seed: float
+
+  void setSeed(value float)
+  color getColor()
+  color getBackgroundColor()
+}
+
+MessageSpinner: {
+  shape: class
+
+  -rotationAngleRadian: float
+  -yOffset: float
+  -messages: ArrayList<Message>
+  -paint: Paint
+  -messageAngleRad: float
+  MessageSpinner(p Paint)
+  add(message String)
+  update(angleDeg float)
+  render()
+}
+
+MessageSpinner -- Paint
+MessageSpinner -- Message

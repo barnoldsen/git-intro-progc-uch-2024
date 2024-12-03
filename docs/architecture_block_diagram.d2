@@ -1,0 +1,30 @@
+# generate png using:
+# 
+# d2 --layout=elk --sketch --theme=4 .\architecture_block_diagram.d2 .\architecture_block_diagram.png
+
+m: main
+s: state {
+    shape: cylinder
+}
+i: input
+
+o: screen objects {
+    style.multiple: true 
+    update
+    render
+    state {
+        shape: cylinder
+    }
+    update -- state
+    render -- state
+}
+
+user {
+    shape: person
+    style.stroke-dash: 3
+}
+
+m -- s
+i -> s : events
+m -> o
+user -- i : click / type

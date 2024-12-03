@@ -1,0 +1,25 @@
+# generate png using:
+# 
+# d2 --layout=dagre  .\word_spin_sequence.d2 .\word_spin_sequence.png
+
+shape: sequence_diagram
+p: Processing
+p.style.stroke-dash: 5
+s: Sketch
+ms: MessageSpinner
+paint: Paint
+
+p -> s.init: setup()
+
+s.init -> paint.constructor: Paint()
+s.init -> ms.constructor: MessageSpinner(paint)
+
+loop: {
+	p -> s.draw: draw()	
+    s.draw -> s.draw.update : update()
+	s.draw.update -> ms.update: update(angle)	
+	s.draw.update -> paint.setSeed: setSeed(angle)	
+    s.draw -> s.draw.render : render()
+	s.draw.render -> paint.getBg: getBackgroundColor()
+	s.draw.render -> ms.render: render()
+}
