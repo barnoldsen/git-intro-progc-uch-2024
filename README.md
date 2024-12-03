@@ -2,7 +2,8 @@
 
 ## Ingredienser
 - Kød
-- salat
+- Salat
+- Tomat
 
 ## Fremgangsmåde
 - Form til bøf
