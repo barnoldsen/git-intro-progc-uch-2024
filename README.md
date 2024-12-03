@@ -2,10 +2,14 @@
 
 ## Ingredienser
 - Kød
-- salat
--Boller
+- aiolie 
+- Agurk 
+- ketchup
+- Salat
+- Tomat
+
 ## Fremgangsmåde
 - Form til bøf
 - Steg bøf
--Varm brød
 
+- Spis burger
