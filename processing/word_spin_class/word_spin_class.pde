@@ -22,9 +22,10 @@ void draw() {
 void update() {
   spinner.update(angle);
   paint.setSeed(angle);
-  angle +=1.2;
+  angle +=7;
 }
 void render() {
   background(paint.getBackgroundColor());
   spinner.render();
 }
+
