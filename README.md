@@ -4,6 +4,7 @@
 - Kød
 - aiolie 
 - Agurk 
+- ketchup
 - Salat
 - Tomat
 
