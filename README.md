@@ -7,10 +7,9 @@
 - ketchup
 - Salat
 - Tomat
-- Ketchup
-- Mayonnaise
 
 ## Fremgangsmåde
 - Form til bøf
 - Steg bøf
 
+- Spis burger
