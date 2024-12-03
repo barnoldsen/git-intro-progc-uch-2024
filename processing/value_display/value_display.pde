@@ -57,4 +57,8 @@ void keyPressed(){
     limit -= 100;
     println("down", limit);
   }
+  if(keyCode == UP){
+    limit += 100;
+    println("up", limit);
+  }
 }
