@@ -13,4 +13,4 @@
 ## Fremgangsmåde
 - Form til bøf
 - Steg bøf
-- snit salaten 
+
