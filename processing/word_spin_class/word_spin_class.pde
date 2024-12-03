@@ -7,7 +7,6 @@ void setup() {
   spinner.add("Rasmus");
   spinner.add("Bent");
   spinner.add("Bjarne");
-  spinner.add("Alfred");
   spinner.add("Nikolaj");
   spinner.add("Arnold");
   spinner.add("Mulham");
@@ -24,7 +23,7 @@ void draw() {
 void update() {
   spinner.update(angle);
   paint.setSeed(angle);
-  angle +=30;
+  angle +=3;
 }
 void render() {
   background(paint.getBackgroundColor());
