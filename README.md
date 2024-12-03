@@ -2,9 +2,10 @@
 
 ## Ingredienser
 - Kød
--ketchup
 - Salat
 - Tomat
+- Ketchup
+- Mayonnaise
 
 ## Fremgangsmåde
 - Form til bøf
