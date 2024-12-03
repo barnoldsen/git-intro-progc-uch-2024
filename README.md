@@ -2,10 +2,13 @@
 
 ## Ingredienser
 - Kød
-- salat
-- bacon
+- Salat
+- Tomat
+- Ketchup
+- Mayonnaise
 
 ## Fremgangsmåde
 - Form til bøf
 - Steg bøf
-- steg bacon
+
+- Spis burger
