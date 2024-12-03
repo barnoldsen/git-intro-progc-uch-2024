@@ -8,6 +8,7 @@ void setup() {
   spinner.add("Bent");
   spinner.add("Bjarne");
   spinner.add("Alfred");
+  spinner.add("Nikolaj");
 }
 
 void draw() {
