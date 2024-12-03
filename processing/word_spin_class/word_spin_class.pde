@@ -11,6 +11,7 @@ void setup() {
   spinner.add("Nikolaj");
   spinner.add("Arnold");
   spinner.add("Mulham");
+  spinner.add("Lukas");
 }
 
 void draw() {
