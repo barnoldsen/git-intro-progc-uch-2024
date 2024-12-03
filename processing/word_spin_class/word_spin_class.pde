@@ -24,7 +24,7 @@ void draw() {
 void update() {
   spinner.update(angle);
   paint.setSeed(angle);
-  angle +=7;
+  angle +=30;
 }
 void render() {
   background(paint.getBackgroundColor());
