@@ -3,6 +3,7 @@
 ## Ingredienser
 - Kød
 - salat
+-ketchup
 
 ## Fremgangsmåde
 - Form til bøf
