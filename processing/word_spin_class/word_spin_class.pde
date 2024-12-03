@@ -9,6 +9,7 @@ void setup() {
   spinner.add("Bjarne");
   spinner.add("Alfred");
   spinner.add("Nikolaj");
+  spinner.add("Maja");
 }
 
 void draw() {
