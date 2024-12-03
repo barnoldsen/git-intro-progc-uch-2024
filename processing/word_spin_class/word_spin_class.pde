@@ -40,6 +40,7 @@ void setup() {
   spinner.add("Alfred");
   spinner.add("Nikolaj");
   spinner.add("Arnold");
+  spinner.add("Mulham");
   spinner.add("Lukas");
 }
 
